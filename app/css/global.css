@@ -1,0 +1,140 @@
+:root {
+  --color-black: #000;
+  --color-white: #fff; }
+
+body {
+  font-family: 'Lato-Regular', sans-serif;
+  font-weight: 400; }
+
+.title {
+  font-family: 'CormorantGaramond-Medium', sans-serif;
+  font-weight: 500; }
+
+@font-face {
+  font-family: "Lato-Bold";
+  src: url("../fonts/Lato-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("../fonts/Lato-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CormorantGaramond-Medium";
+  src: url("../fonts/CormorantGaramond-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Lato-Bold";
+  src: url("../fonts/Lato-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("../fonts/Lato-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CormorantGaramond-Medium";
+  src: url("../fonts/CormorantGaramond-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Lato-Bold";
+  src: url("../fonts/Lato-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("../fonts/Lato-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal; }
+
+@font-face {
+  font-family: "CormorantGaramond-Medium";
+  src: url("../fonts/CormorantGaramond-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal; }
+
+html {
+  box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  background-color: var(--color-white); }
+
+img {
+  max-width: 100%; }
+
+a {
+  text-decoration: none;
+  color: #2F2F2F; }
+
+ul {
+  list-style: none;
+  padding: 0; }
+
+.is-outer {
+  position: relative !important;
+  left: -9999px !important; }
+
+.site-container {
+  overflow: hidden; }
+
+.is-hidden {
+  display: none !important; }
+
+.for-mobile {
+  display: none; }
+  @media (max-width: 768px) {
+    .for-mobile {
+      display: block; } }
+
+.error {
+  border: 2px #ff4019 solid !important; }
+
+.btn-reset {
+  border: none;
+  background: transparent;
+  cursor: pointer; }
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1650px; }
+
+.js-focus-visible :focus:not(.focus-visible) {
+  outline: none; }
+
+.title {
+  font-size: 70px;
+  line-height: 70px; }
+  .title span {
+    color: #D0B194; }
+
+/*# sourceMappingURL=global.css.map */

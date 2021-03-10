@@ -1,0 +1,17 @@
+.user-nav {
+  display: flex;
+  align-items: center;
+
+  &__icon {
+    width: 54px;
+    height: 54px;
+  }
+
+  &__link {
+    padding: 18px 38px;
+    background-color: #fff;
+    border-radius: 16px;
+    margin-left: 24px;
+    text-transform: uppercase;
+  }
+}
