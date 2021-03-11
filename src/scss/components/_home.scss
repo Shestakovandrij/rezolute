@@ -17,21 +17,14 @@
 }
 
 .about {
-  // padding: 110px 87px 63px 132px;
+
+  padding-bottom: 150px;
 
   &__inner {
     padding: 110px 87px 63px 132px;
     margin-top: -40px;
     background-color: #f5f5f5;
     border-radius: 32px;
-  }
-
-  &__slogan {
-    color: #D0B194;
-    font-size: 17px;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-    line-height: 22px;
   }
 
   &__title {
@@ -46,6 +39,7 @@
 
   &__item {
     max-width: 264px;
+
     &:not(:last-child) {
       margin-right: 155px;
     }
@@ -65,22 +59,85 @@
     margin-bottom: 40px;
   }
 
-  &__link {
+  &__btn {
     color: #D0B194;
     font-size: 18px;
     line-height: 27px;
+    letter-spacing: 0.01em;
     position: relative;
 
     &::before {
-      content: url(../../img/svg/arrow.svg);
+      content: url(../img/arrow.svg);
       position: absolute;
-      width: 31px;
+      width: 28px;
       height: 16px;
       right: -40px;
-      top: 5px;
+      top: 1px;
     }
 
   }
+}
+
+.connect {
+  padding: 150px 0 165px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__img {
+    max-height: 832px;
+    margin-left: -260px;
+  }
+
+  &__content {
+    max-width: 535px;
+    margin-right: 135px;
+  }
+
+  &__title {
+    margin: 40px 0;
+  }
+
+  &__text {
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    max-width: 478px;
+    margin-bottom: 106px;
+  }
+
+  &__numbers {
+    display: flex;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 110px;
+    }
+  }
+
+  &__num {
+    color: #D0B194;
+    font-size: 60px;
+    line-height: 60px;
+    font-family: "CormorantGaramond-Regular";
+    src: url('../fonts/CormorantGaramond-Regular.woff2') format("woff2");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+
+  &__desc {
+    font-size: 15px;
+    line-height: 22px;
+    color: rgba(60, 61, 61, 0.7);
+    margin-top: 10px;
+    margin-bottom: 112px;
+  }
+
 
 
 }
