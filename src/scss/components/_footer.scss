@@ -1,0 +1,93 @@
+.footer {
+  color: #2F2F2F;
+  background-color: #f8f8f8;
+
+  &__inner {
+    padding: 114px 0 40px;
+    display: flex;
+  }
+
+  &__logo {
+    margin-right: 268px;
+  }
+
+  &__navs {
+    display: flex;
+    max-width: 554px;
+    margin-right: 180px;
+    border-bottom: 1px solid #C8C8C8;
+    padding-bottom: 165px;
+  }
+
+  &__nav {
+    &:not(:last-child) {
+      margin-right: 112px;
+    }
+  }
+
+  &__title {
+    font-family: "Lato-Bold";
+    src: url('../fonts/Lato-bold.woff2') format("woff2");
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+  }
+
+  &__item {
+
+    text-transform: uppercase;
+
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__link {
+    opacity: 0.7;
+  }
+
+  &__icon {
+    width: 22px;
+    height: 22px;
+  }
+
+  &__contact {
+    width: 554px;
+    padding-left: 180px;
+    border-bottom: 1px solid #C8C8C8;
+  }
+
+  &__item-address {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 8px;
+    opacity: 0.4;
+  }
+
+  &__item-text {
+    margin-top: 10px;
+    margin-bottom: 23px;
+    opacity: 0.4;
+    line-height: 24px;
+  }
+
+  &__social-items {
+    display: flex;
+  }
+
+  &__social-item {
+    &:not(:last-child) {
+      margin-right: 15px;
+    }
+  }
+
+  &__bootom {
+    display: flex;
+  }
+
+  &__bootom-list {
+    display: flex;
+  }
+}
