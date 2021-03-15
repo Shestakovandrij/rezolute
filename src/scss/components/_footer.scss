@@ -83,11 +83,26 @@
     }
   }
 
-  &__bootom {
+  &__bottom {
+    margin-left: 402px;
+  }
+
+  &__bottom-list {
     display: flex;
   }
 
-  &__bootom-list {
-    display: flex;
+  &__bottom-item {
+    &:not(:last-child) {
+      margin-right: 36px;
+    }
+
+    &:last-child {
+      margin-left: 100px;
+    }
+  }
+
+  &__bottom-link {
+    font-size: 15px;
+    opacity: 0.4;
   }
 }

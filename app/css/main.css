@@ -104,10 +104,17 @@
     display: flex; }
   .footer__social-item:not(:last-child) {
     margin-right: 15px; }
-  .footer__bootom {
+  .footer__bottom {
+    margin-left: 402px; }
+  .footer__bottom-list {
     display: flex; }
-  .footer__bootom-list {
-    display: flex; }
+  .footer__bottom-item:not(:last-child) {
+    margin-right: 36px; }
+  .footer__bottom-item:last-child {
+    margin-left: 100px; }
+  .footer__bottom-link {
+    font-size: 15px;
+    opacity: 0.4; }
 
 .menu__list {
   display: flex;
