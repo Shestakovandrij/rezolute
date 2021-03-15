@@ -141,3 +141,33 @@
 
 
 }
+
+.review {
+  padding: 165px 0 175px;
+
+  &__item {
+    display: flex !important;
+    justify-content: space-between;
+  }
+
+  &__content {
+    max-width: 600px;
+  }
+
+  &__title {
+    line-height: 66px;
+    margin: 35px 0 62px;
+  }
+
+  &__author {
+    color: rgba(60, 61, 61, 0.7);
+    font-size: 18px;
+    line-height: 27px;
+    margin-left: 100px;
+  }
+
+  &__img {
+    max-height: 634px;
+
+  }
+}

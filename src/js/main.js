@@ -1,6 +1,9 @@
-/**
-  * название функции
-  *
-  * @param {number} first - первое число
-  * @returns {number}
-  */
+$(function(){
+     var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  });
+

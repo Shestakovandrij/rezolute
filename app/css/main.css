@@ -159,6 +159,24 @@
     margin-top: 10px;
     margin-bottom: 112px; }
 
+.review {
+  padding: 165px 0 175px; }
+  .review__item {
+    display: flex !important;
+    justify-content: space-between; }
+  .review__content {
+    max-width: 600px; }
+  .review__title {
+    line-height: 66px;
+    margin: 35px 0 62px; }
+  .review__author {
+    color: rgba(60, 61, 61, 0.7);
+    font-size: 18px;
+    line-height: 27px;
+    margin-left: 100px; }
+  .review__img {
+    max-height: 634px; }
+
 .btn {
   color: #D0B194;
   font-size: 18px;
