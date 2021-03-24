@@ -3,6 +3,25 @@
   background: url(../img/bghead.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  // position: relative;
+  // z-index: 2;
+
+  // @include r(768) {
+  //   &::after {
+  //     content: '';
+  //     background-color: #4a4a4a47;
+  //     position: absolute;
+  //     left: 0;
+  //     right: 0;
+  //     top: 0;
+  //     bottom: 0;
+  //     height: 100%;
+  //     width: 100%;
+  //     z-index: 2;
+  //   }
+  // }
+
+
 
 
 
@@ -11,6 +30,12 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 306px;
+    position: relative;
+    z-index: 10;
+
+    @include r(1199) {
+      margin-bottom: 100px;
+    }
 
     &.header__top--active {
       .menu__list {
@@ -19,28 +44,63 @@
     }
   }
 
+  &__bottom {
+    position: relative;
+    z-index: 10;
+  }
+
   &__logo {
     margin-right: 119px;
+
+    @include r(1199) {
+      position: relative;
+      z-index: 101;
+      margin-right: 10px;
+    }
   }
 
   &__inner {
     display: flex;
     justify-content: space-between;
+
+    @include r(768) {
+      display: block;
+    }
   }
 
   &__social {
     margin-bottom: 218px;
+
+    @include r(768) {
+      display: flex;
+      margin-bottom: 100px;
+    }
+  }
+
+  &__list {
+    @include r(768) {
+      display: flex;
+    }
   }
 
   &__item {
     &:not(:last-child) {
       margin-bottom: 26px;
+
+      @include r(768) {
+        margin-bottom: 0;
+        margin-right: 15px;
+      }
     }
   }
 
   &__link {
     color: #fff;
     font-size: 20px;
+
+    @include r(991) {
+      color: #4a4a4acc;
+    }
   }
 
   &__info {
@@ -52,6 +112,10 @@
     font-size: 20px;
     color: #fff;
     margin-bottom: 30px;
+
+    @include r(768) {
+      color: #a05d1e;
+    }
 
   }
 
@@ -70,6 +134,15 @@
     max-width: 277px;
     height: 280px;
     margin-bottom: 45px;
+
+    @include r(991) {
+      padding: 55px 20px 40px 40px;
+    }
+
+    @include r(768) {
+      max-width: 100%;
+      height: 100%;
+    }
   }
 
   &__preference-info {
@@ -81,6 +154,14 @@
     font-weight: 400;
     font-display: swap;
     font-style: normal;
+
+    @include r(991) {
+      color: #4a4a4acc;
+    }
+
+    @include r(768) {
+      color: #fff;
+    }
   }
 
   &__preference-text {

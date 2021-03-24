@@ -5,6 +5,15 @@
   &__icon {
     width: 54px;
     height: 54px;
+
+
+    @include r(1199) {
+      position: relative;
+      z-index: 101;
+
+      background-color: #1c1c1c;
+      border-radius: 50%;
+    }
   }
 
   &__link {
@@ -13,6 +22,16 @@
     border-radius: 16px;
     margin-left: 24px;
     text-transform: uppercase;
+
+    @include r(1199) {
+      position: relative;
+      z-index: 101;
+    }
+
+    @include r(768) {
+      background-color: #1c1c1c;
+      color: #fff;
+    }
   }
 }
 
@@ -171,4 +190,3 @@
 
   }
 }
-
