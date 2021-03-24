@@ -1,8 +1,5 @@
 // COLORS
-:root {
-  --color-black: #000;
-  --color-white: #fff;
-}
+
 
 // font
 %lato-400 {
@@ -19,4 +16,11 @@
   font-family: 'CormorantGaramond-Regular',
   sans-serif;
   font-weight: 400;
+}
+
+
+@mixin r($width) {
+  @media only screen and (max-width: $width+ "px") {
+    @content;
+  }
 }

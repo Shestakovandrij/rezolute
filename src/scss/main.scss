@@ -1,16 +1,21 @@
-// @import 'vars'; если используете scss-переменные - подключите сюда vars, но удалите root из _vars.scss
+
 
 // CUSTOM COMPONENTS STYLES
-// .burger {
+// .menu__btn {
 //   --burger-width: 40px;
 //   --burger-height: 20px;
 //   --burger-line-height: 2px;
 
 //   @include burger;
 // }
-
+@import "vars";
 @import "./components/header";
 @import "./components/footer";
 @import "./components/menu";
 @import "./components/home";
 @import "./components/btn";
+@import "mixins/burger";
+@import "./mixins/breakpoint";
+
+
+

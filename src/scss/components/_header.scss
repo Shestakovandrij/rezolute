@@ -4,11 +4,19 @@
   background-repeat: no-repeat;
   background-size: cover;
 
+
+
   &__top {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 306px;
+
+    &.header__top--active {
+      .menu__list {
+        transform: translateY(0%);
+      }
+    }
   }
 
   &__logo {

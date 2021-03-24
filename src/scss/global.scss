@@ -3,3 +3,26 @@
 @import "fonts";
 @import "settings";
 @import "libs";
+
+
+
+
+.menu__btn {
+  --burger-width: 40px;
+  --burger-height: 20px;
+  --burger-line-height: 2px;
+
+  display: none;
+
+  @include r(1199) {
+    display: block;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+    z-index: 1000;
+  }
+
+  @include burger;
+}

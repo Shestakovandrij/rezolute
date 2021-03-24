@@ -1,11 +1,10 @@
 $(function(){
-     var swiper = new Swiper('.swiper-container', {
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
+
+  $('.menu__btn').on('click', function(){
+    $('.header__top').toggleClass('header__top--active')
   });
+
+});
 
 
 //# sourceMappingURL=main.js.map
