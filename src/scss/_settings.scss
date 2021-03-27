@@ -87,6 +87,21 @@ ul {
     font-size: 55px;
     line-height: 55px;
     color: #2f2f2f;
+
+    @include r(991) {
+      font-size: 35px;
+      line-height: 35px;
+    }
+  }
+
+  @include r(991) {
+    font-size: 55px;
+    line-height: 60px;
+  }
+
+  @include r(575) {
+    font-size: 35px;
+    line-height: 40px;
   }
 }
 

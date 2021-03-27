@@ -136,6 +136,18 @@ ul {
     font-size: 55px;
     line-height: 55px;
     color: #2f2f2f; }
+    @media only screen and (max-width: 991px) {
+      .title-lg {
+        font-size: 35px;
+        line-height: 35px; } }
+  @media only screen and (max-width: 991px) {
+    .title {
+      font-size: 55px;
+      line-height: 60px; } }
+  @media only screen and (max-width: 575px) {
+    .title {
+      font-size: 35px;
+      line-height: 40px; } }
 
 .slogan {
   color: #D0B194;

@@ -19,6 +19,10 @@
 
       padding-top: 130px !important;
     }
+
+    @include r(575) {
+      padding-top: 180px !important;
+    }
   }
 
   &__item {
